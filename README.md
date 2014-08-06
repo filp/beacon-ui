@@ -1,9 +1,17 @@
-# Atom Dark UI theme
+# beacon-ui
 
-Default dark UI theme for Atom.
+A pretty sweet theme for the Atom editor.
 
-This theme is installed by default with Atom and can be activated by going to
-the _Themes_ section in the Settings view (`cmd-,`) and selecting it from the
-_UI Themes_ drop-down menu.
+-- Not ready to use yet!
 
-![](https://f.cloud.github.com/assets/671378/2265086/c6897dba-9e7b-11e3-945d-551cac610717.png)
+## Contributing
+
+- Read "[Creating an Interface theme](https://atom.io/docs/v0.60.0/creating-a-theme#creating-an-interface-theme)"
+- Fork this repository
+- Make your changes in a separate branch
+- Send in a pull request
+- Pat yourself on the back
+
+## Authors
+
+This theme is primarily developed by [Filipe Dobreira](https://github.com/filp)
