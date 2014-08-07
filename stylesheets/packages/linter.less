@@ -2,3 +2,12 @@
  * Custom styles for the linter package
  * https://atom.io/packages/linter
  */
+
+.highlight {
+  &.linter-warning .region,
+  &.linter-error .region {
+    background: transparentize(@background-color-warning, 50%) !important;
+    border: none;
+    -webkit-transform: scale3d(1.04, 1.4, 1.03);
+  }
+}
