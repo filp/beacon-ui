@@ -7,8 +7,9 @@
 @tab-max-width: 160px;
 
 .tab-bar {
-  height: @tab-height + 1px;
+  height: @tab-height + 2px;
   background: @tab-bar-background-color;
+  border-top: 1px solid @tab-border-color;
   border-bottom: 1px solid @tab-border-color;
 
   &:hover {
@@ -29,12 +30,17 @@
     padding: 0 10px;
     color: @text-color;
     height: @tab-height;
+    box-shadow: inset -1px 0 0 @tab-border-color;
 
     // Avoid that list-inline > first-child doesn't override
     // the padding on the first tab.
     &:first-child {
       padding-left: 10px;
       margin-left: 0 !important;
+    }
+
+    &:last-child {
+      box-shadow: 2px 0 18px @tab-border-color;
     }
 
     .close-icon {
@@ -75,6 +81,9 @@
     z-index: 1;
     background: @tab-background-color-active;
     color: @text-color-highlight;
+
+    // Remove the border on the right
+    box-shadow: none;
 
     .close-icon {
       line-height: @tab-height - 1px;
