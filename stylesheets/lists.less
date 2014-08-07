@@ -6,6 +6,13 @@
   li:not(.list-nested-item),
   li.list-nested-item > .list-item {
     .text(normal);
+    color: darken(@text-color, 5%);
+
+    .icon:before {
+      color: @primary-color;
+      opacity: .8;
+      text-shadow: none;
+    }
   }
 
   .generate-list-item-text-color(@class) {
@@ -72,11 +79,14 @@
       height: @active-icon-size;
       width: @active-icon-size;
     }
+
     > li:not(.active):before {
       margin-right: @component-icon-padding;
     }
+
     li.active {
       .octicon(check, @active-icon-size);
+
       &:before {
         margin-right: @component-icon-padding;
         color: @text-color-success;
