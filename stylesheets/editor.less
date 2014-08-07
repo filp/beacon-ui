@@ -9,16 +9,14 @@
   border-radius: @component-border-radius;
   padding-left: @component-padding/2;
 
-  .cursor { border-color: #fff; }
   .selection .region { background-color: lighten(@input-background-color, 10%); }
+
+  .cursor {
+    color: #fff;
+  }
 }
 
 .editor.editor-colors.mini.is-focused {
   background-color: lighten(@input-background-color, 5%);
   .selection .region { background-color: desaturate(@background-color-info, 50%); }
-}
-
-// FIXME: these should go in syntax themes?
-.editor .gutter.drop-shadow {
-  -webkit-box-shadow: -2px 0 10px 2px #222;
 }

@@ -1,5 +1,7 @@
 // Colors
 
+@primary-color: #e03459;
+
 @text-color: #d6d6d6;
 @text-color-subtle: #555;
 @text-color-highlight: #fff;
@@ -21,11 +23,11 @@
 @background-color-warning: #ffaa2c;
 @background-color-error: #c00;
 @background-color-highlight: rgba(255, 255, 255, 0.07);
-@background-color-selected: #4182C4;
+@background-color-selected: @primary-color;
 
-@app-background-color: #333;
+@app-background-color: #383c42;
 
-@base-background-color: #383c42;
+@base-background-color: @app-background-color;
 @base-border-color: rgba(0, 0, 0, 0.5);
 
 @pane-item-background-color: @base-background-color;
@@ -54,10 +56,10 @@
 @tab-bar-background-color: darken(@base-background-color, 5%);
 @tab-bar-border-color: @tab-bar-background-color;
 @tab-background-color: lighten(@tab-bar-background-color, 3%);
-@tab-background-color-active: #e03459;
+@tab-background-color-active: @primary-color;
 @tab-border-color: rgba(0, 0, 0, .2);
 
-@tree-view-background-color: @tool-panel-background-color;
+@tree-view-background-color: darken(@base-background-color, 10%);
 @tree-view-border-color: @tool-panel-border-color;
 
 @scrollbar-background-color: rgba(42, 42, 42, 0.5);
