@@ -3,10 +3,10 @@
 .overlay {
   color: @text-color;
   background-color: @overlay-background-color;
-  padding: @component-padding;
+  padding: @component-padding / 2;
+  padding-top: @component-padding;
   border: 1px solid @overlay-border-color;
-  box-shadow: 0 0 10px @base-border-color;
-  border-radius: @component-border-radius;
+  opacity: .95;
 
   .editor.mini {
     margin-bottom: @component-padding;
@@ -14,18 +14,18 @@
 
   .select-list ol.list-group,
   &.select-list ol.list-group {
-
-    background-color: lighten(@overlay-background-color, 3%);
+    background-color: @overlay-background-color;
 
     li {
       padding: @component-padding;
-      border-bottom: 1px solid @overlay-background-color;
+      font-size: @font-size-larger;
 
       &.two-lines { padding: @component-padding/2 @component-padding; }
 
       .status.icon {
         float: right;
         margin-left: @component-icon-padding;
+
         &:before {
           margin-right: 0;
         }

@@ -2,7 +2,14 @@
 
 A pretty sweet theme for the Atom editor.
 
--- Not ready to use yet!
+![beacon-ui-1](http://i.imgur.com/XGQaVkA.png)
+![beacon-ui-2](http://i.imgur.com/cKZvGVh.png)
+
+Shown with the Spacegray Dark syntax theme.
+
+## Important note
+
+beacon-ui is still a work in progress!
 
 ## Contributing
 
