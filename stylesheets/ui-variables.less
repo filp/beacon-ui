@@ -8,7 +8,7 @@
 @text-color-highlight: #fff;
 @text-color-selected: @text-color-highlight;
 
-@text-color-info: #5293d8;
+@text-color-info: @secondary-color;
 @text-color-success: #26c26a;
 @text-color-warning: #ff982d;
 @text-color-error: #c00;
@@ -37,8 +37,8 @@
 @input-background-color: #212224;
 @input-border-color: @base-border-color;
 
-@tool-panel-background-color: #1d1f21;
-@tool-panel-border-color: @base-border-color;
+@tool-panel-background-color: darken(@base-background-color, 3%);
+@tool-panel-border-color: lighten(@base-border-color, 10%);
 
 @inset-panel-background-color: #161719;
 @inset-panel-border-color: @base-border-color;
@@ -86,7 +86,7 @@
 @component-icon-padding: 5px;
 @component-icon-size: 16px;
 @component-line-height: 25px;
-@component-border-radius: 2px;
+@component-border-radius: 0;
 
 @tab-height: 39px;
 
