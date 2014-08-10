@@ -2,10 +2,11 @@
 
 A pretty sweet theme for the Atom editor.
 
-![beacon-ui-1](http://i.imgur.com/g6fBWYB.png)
-![beacon-ui-2](http://i.imgur.com/ZYJneOp.png)
+Shown below with the [Spacegray Dark](https://github.com/pauloacmelo/spacegray-dark-syntax)
+Syntax theme and the [file-icons](https://github.com/DanBrooker/file-icons) package.
 
-Shown with the Spacegray Dark syntax theme.
+![beacon-ui-1](http://i.imgur.com/zwCLf6W.png)
+![beacon-ui-2](http://i.imgur.com/GQJgmbk.png)
 
 ## Important note
 
