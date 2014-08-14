@@ -2,8 +2,10 @@
 @import "ui-mixins";
 
 .btn {
-  border-radius: 6px !important;
-  box-shadow: inset  0 0 0 2px @base-background-color;
+  border-radius: @component-padding !important;
+  box-shadow: inset 0 0 0 2px @tool-panel-background-color,
+              inset 0 3px 0 rgba(255, 255, 255, .1);
+
 }
 
 .btn-background (@color, @hover-color, @selected-color, @text-color) {
