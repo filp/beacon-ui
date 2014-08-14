@@ -5,8 +5,8 @@ A pretty sweet theme for the Atom editor.
 Shown below with the [Spacegray Dark](https://github.com/pauloacmelo/spacegray-dark-syntax)
 Syntax theme and the [file-icons](https://github.com/DanBrooker/file-icons) package.
 
-![beacon-ui-1](http://i.imgur.com/zwCLf6W.png)
-![beacon-ui-2](http://i.imgur.com/GQJgmbk.png)
+![beacon-ui-1](http://i.imgur.com/M1kpzmH.png)
+![beacon-ui-2](http://i.imgur.com/vE5VNOO.png)
 
 ## Important note
 
