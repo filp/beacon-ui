@@ -10,6 +10,14 @@ Syntax theme and the [file-icons](https://github.com/DanBrooker/file-icons) pack
 
 _\*It'll still look good on other platforms, though!_
 
+## Installation
+
+Find beacon-ui through Atom's theme settings, or from your terminal run:
+
+```shell
+$ apm install beacon-ui
+```
+
 ## Contributing
 
 - Read "[Creating an Interface theme](https://atom.io/docs/v0.60.0/creating-a-theme#creating-an-interface-theme)"
