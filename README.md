@@ -1,6 +1,6 @@
 # beacon-ui
 
-A pretty sweet theme for the Atom editor.
+A clean and focused atom theme, optimized for OSX Yosemite
 
 Shown below with the [Spacegray Dark](https://github.com/pauloacmelo/spacegray-dark-syntax)
 Syntax theme and the [file-icons](https://github.com/DanBrooker/file-icons) package.
