@@ -25,17 +25,32 @@
   }
 }
 
-.command-palette {
-  margin-top: @tab-height + 2px;
+.command-palette,
+.grammar-selector,
+.fuzzy-finder,
+.project-manager {
+  // Can the command palette come from anywhere BUT the top?
+  // Anyway, some future-proofing:
+  &.from-top {
+    margin-top: @tab-height + 2px;
+  }
+
   border: none;
   box-shadow: inset 0 2px 0 0 rgba(0, 0, 0, .2);
+  padding: @component-padding/2 0 0 0 !important;
+  opacity: .92 !important;
 
   .editor.editor-colors.mini {
-    padding: @component-padding @component-padding/2;
+    padding: @component-padding @component-padding;
     font-size: @font-size-huge !important;
-    border-radius: 6px !important;
-    border-bottom: 2px solid @primary-color;
+    border-radius: @component-border-radius !important;
     border: none !important;
     box-shadow: none !important;
+  }
+
+  // Also includes the 'no result' state
+  .error-message {
+    padding: @component-padding;
+    color: @text-color-subtle;
   }
 }
