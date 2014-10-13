@@ -2,11 +2,23 @@
   height: 28px;
   line-height: 28px;
 
-  .icon-color-mode, .file-info {
-    .text(subtle);
+  .icon-color-mode,
+  .file-info,
+  .cursor-position,
+  .status-bar-selection,
+  .grammar-status a,
+  .git-branch,
+  .git-commits,
+  .feedback-status {
+    font: inherit;
+    color: rgba(255, 255, 255, .4);
   }
 
-  .cursor-position {
+  .feedback-status {
+    float: right;
+  }
+
+  .available-updates-status {
     color: @secondary-color;
   }
 }
