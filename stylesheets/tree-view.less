@@ -7,17 +7,19 @@
   font-size: @font-size;
   background: @tree-view-background-color;
 
-  .selected:before {
-  	background: lighten(@tree-view-background-color, 3%);
+  .icon {
+    &:before {
+      color: lighten(@text-color-subtle, 10%) !important;
+    }
   }
 }
 
 .focusable-panel {
-  -webkit-transition: opacity 200ms ease;
-  opacity: .5;
+  transition: opacity 200ms ease;
+  opacity: .6;
 
   &:hover {
-    opacity: .8;
+    opacity: .9;
   }
 
   &:focus {
