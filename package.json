@@ -1,7 +1,7 @@
 {
   "name": "beacon-ui",
   "theme": "ui",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "A clean and focused atom theme, optimized for OSX Yosemite",
   "license": "MIT",
   "repository": "https://github.com/filp/beacon-ui",
