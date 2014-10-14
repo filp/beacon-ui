@@ -5,8 +5,8 @@ A clean and focused atom theme, optimized for OSX Yosemite*
 Shown below with the [Spacegray Dark](https://github.com/pauloacmelo/spacegray-dark-syntax)
 Syntax theme and the [file-icons](https://github.com/DanBrooker/file-icons) package.
 
-![beacon-ui-1](http://i.imgur.com/4huuHhj.png)
-![beacon-ui-2](http://i.imgur.com/uvxXc93.png)
+![beacon-ui-1](http://i.imgur.com/03iOhSt.png)
+![beacon-ui-2](http://i.imgur.com/mHMG5j7.png)
 
 _\*It'll still look good on other platforms, though!_
 
